@@ -76,7 +76,7 @@ export default function Footer() {
 
       <div className="container-app flex flex-col items-center justify-between gap-3 border-t border-ink-700 light:border-paper-300 py-5 text-xs text-paper-300 light:text-ink-700 md:flex-row">
         <p>© {year} {SITE.name}. {dict.footer.rights}</p>
-        <VisitorCounter />
+        {/* <VisitorCounter /> */}
         <button
           type="button"
           onClick={scrollToTop}
