@@ -48,7 +48,7 @@ export default function ProjectCard({ project }) {
                 <FiGithub /> Code
               </a>
             )}
-            {project.demo && (
+            {/* {project.demo && (
               <a
                 href={project.demo}
                 target="_blank"
@@ -57,7 +57,7 @@ export default function ProjectCard({ project }) {
               >
                 <FiExternalLink /> Live Demo
               </a>
-            )}
+            )} */}
           </div>
         )}
       </div>
