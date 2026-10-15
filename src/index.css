@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+/* Custom variant so `light:` utilities apply when <html> carries the
+   `.light` class — our default (no class) styling is the dark theme. */
+@custom-variant light (&:where(.light, .light *));
+
+/* ============================================================
+   DESIGN TOKENS — "Editor Theme"
+   A code-editor inspired system: graphite panes, an amber
+   "keyword" accent and a teal "string" accent, echoing syntax
+   highlighting without leaning on neon-on-black cliches.
+   ============================================================ */
+@theme {
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-urdu: "Noto Nastaliq Urdu", "Inter", sans-serif;
+
+  --color-ink-950: #0d0f13;
+  --color-ink-900: #14161c;
+  --color-ink-800: #1b1e26;
+  --color-ink-700: #262a35;
+  --color-ink-600: #3a3f4d;
+
+  --color-paper-100: #f7f5f0;
+  --color-paper-200: #edeae3;
+  --color-paper-300: #ded9cd;
+
+  --color-amber-400: #e8a33d;
+  --color-amber-500: #d68f26;
+  --color-teal-400: #3fb8ac;
+  --color-teal-500: #2f9a90;
+
+  --animate-blink: blink 1s steps(1) infinite;
+  --animate-float: float 6s ease-in-out infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-14px); }
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html.light {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html[lang="ur"] body {
+  font-family: var(--font-urdu);
+}
+
+html[dir="rtl"] .container-app {
+  direction: rtl;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-ink-900);
+  color: var(--color-paper-200);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html.light body {
+  background-color: var(--color-paper-100);
+  color: var(--color-ink-900);
+}
+
+::selection {
+  background-color: var(--color-amber-400);
+  color: var(--color-ink-950);
+}
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--color-ink-600);
+  border-radius: 999px;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-amber-400);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.container-app {
+  width: 100%;
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  color: var(--color-teal-400);
+}
+
+.glass {
+  background-color: color-mix(in srgb, var(--color-ink-800) 70%, transparent);
+  backdrop-filter: blur(14px);
+  border: 1px solid color-mix(in srgb, var(--color-paper-200) 8%, transparent);
+}
+
+html.light .glass {
+  background-color: color-mix(in srgb, var(--color-paper-100) 75%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-ink-900) 8%, transparent);
+}

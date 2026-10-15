@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://akif-shahzad.vercel.app/</loc><lastmod>2026-10-15</lastmod><priority>1.0</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/about</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/skills</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/projects</loc><lastmod>2026-10-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/experience</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/services</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/certifications</loc><lastmod>2026-10-15</lastmod><priority>0.6</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/resume</loc><lastmod>2026-10-15</lastmod><priority>0.6</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/contact</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/how-to-build-a-rag-chatbot-python</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/add-ai-chatbot-to-your-website</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/ai-agents-explained-tool-calling</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/how-to-become-an-ai-developer</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/react-vs-nextjs</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/prompt-engineering-for-developers</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/full-stack-developer-roadmap</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/vector-database-comparison</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/jwt-authentication-react-node</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/react-seo-single-page-app</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/fastapi-vs-nodejs</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/react-performance-optimization</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/docker-for-web-developers</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/why-i-default-to-tailwind</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/lighthouse-90-checklist</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://akif-shahzad.vercel.app/blog/offline-first-lessons-focusloop</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+</urlset>

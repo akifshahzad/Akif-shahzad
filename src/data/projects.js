@@ -1,0 +1,92 @@
+// Leave `github` or `demo` empty ("") to hide that button.
+export const PROJECTS = [
+  {
+    id: "offermyreg",
+    title: "OfferMyReg",
+    description:
+      "A production UK scrap car valuation platform where users get instant vehicle valuations and book free collections.",
+    image: "/projects/offermyreg.webp",
+    tech: ["React", "Python", "FastAPI", "PostgreSQL"],
+    features: [
+      "Instant vehicle valuation workflow",
+      "Responsive, mobile-first design",
+      "SEO-optimized pages for search visibility",
+      "Fast multi-step user experience",
+      "Contact and enquiry forms",
+    ],
+    github: "",
+    demo: "https://offermyreg.co.uk/",
+    featured: true,
+  },
+  {
+    id: "lead-crm",
+    title: "Lead CRM",
+    description:
+      "A CRM application for managing leads, tracking customer interactions, and streamlining the sales pipeline.",
+    image: "/projects/lead-crm.webp",
+    tech: ["React", "TypeScript", "REST API"],
+    features: [
+      "Lead management dashboard",
+      "Create, edit, and organize leads",
+      "Advanced search and filtering",
+      "Sales pipeline tracking",
+      "Responsive admin interface",
+    ],
+    github: "",
+    demo: "http://lead-crm-fe.s3-website.eu-west-2.amazonaws.com/",
+    featured: true,
+  },
+  {
+    id: "ecommerce-store",
+    title: "E-Commerce Store",
+    description:
+      "A full-featured eCommerce platform with product browsing, cart and secure checkout, and a responsive design.",
+    image: "/projects/ecommerce-store.webp",
+    tech: ["React", "Python", "MySQL"],
+    features: [
+      "Product catalog with categories and search",
+      "Shopping cart and secure checkout",
+      "User authentication and accounts",
+      "Order management and history",
+      "Responsive, mobile-first design",
+    ],
+    github: "",
+    demo: "https://ecommerce-store.vercel.app",
+    featured: true,
+  },
+  {
+    id: "letterbox",
+    title: "Letterbox",
+    description: "A lightweight newsletter builder with drag-and-drop blocks and EmailJS delivery.",
+    image: "/projects/letterbox.svg",
+    tech: ["React", "Tailwind", "EmailJS"],
+    features: ["Drag-and-drop block editor", "Live preview", "One-click test send"],
+    github: "",
+    demo: "",
+    featured: false,
+  },
+  {
+    id: "routewise",
+    title: "RouteWise",
+    description: "A delivery-route optimizer for small courier teams, built on FastAPI and PostGIS.",
+    image: "/projects/routewise.svg",
+    tech: ["React", "FastAPI", "PostgreSQL"],
+    features: ["Multi-stop route optimization", "Driver assignment board", "Map-based tracking"],
+    github: "",
+    demo: "",
+    featured: false,
+  },
+  {
+    id: "pixelpantry",
+    title: "PixelPantry",
+    description: "A recipe-sharing community site with search-by-ingredient and saved collections.",
+    image: "/projects/pixelpantry.svg",
+    tech: ["React", "MongoDB", "Tailwind"],
+    features: ["Ingredient-based search", "Saved collections", "Print-friendly recipe view"],
+    github: "",
+    demo: "",
+    featured: false,
+  },
+];
+
+export const PROJECT_FILTERS = ["All", "React", "TypeScript", "Python", "FastAPI", "PostgreSQL", "MySQL", "Tailwind"];
